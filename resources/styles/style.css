@@ -1,11 +1,27 @@
-body{
-    background-color: black;
+* {
+    box-sizing: border-box;
+}
+body {
+        color: #363738;
+        background-color: #fcfcfd;
+        font-family: Noto Sans Mono, sans-serif;
+        font-size: 16px;
+        line-height: 1;
+        margin: 0;
+}
+a {
+    font-weight: bold;
+    color: #28eea7;
+    text-decoration: none;
 }
 .sef-grey{
-    background-color: rgba(35, 35, 35, .9);
+    background-color: #363738;
 }
 .sef-green{
     background-color: #28eea7;
+}
+.light-grey{
+    background-color: #282828;
 }
 
 .absolute{
@@ -20,6 +36,9 @@ body{
 .row{
     flex-direction: row;
 }
+.column{
+    flex-direction: column;
+}
 .space-between{
     justify-content: space-between;
 }
@@ -29,9 +48,21 @@ body{
 .j-c-center{
     justify-content: center;
 }
+.j-c-e{
+    justify-content: flex-end;
+}
+.j-c-s{
+    justify-content: flex-start !important;
+}
+.a-i-c{
+    align-items: center;
+}
+.a-i-s{
+    align-items: start !important;
+}
 .container{
     height: 50px;
-    max-width: 1340px;
+    max-width: 1340px !important;
     align-items: stretch;
     padding-left: 70px;
     padding-right: 70px;
@@ -39,6 +70,8 @@ body{
     bottom: auto;
     left: 0%;
     right: 0%;
+    box-sizing: border-box;
+    z-index: 2;
 }
 .i-b{
     display: inline-block;
@@ -56,5 +89,136 @@ body{
 }
 
 .hero-section{
+    height: 100vh;
+}
+.right-hero-section{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/hero-left-bg.png");
+    background-position: 50%;
+    background-size: cover;
+}
+.left-hero-section{
+    width: 100%;
+    height: 100%;
+    background-color: #363738;
+    background-image: linear-gradient(rgba(35, 35, 35, .85), rgba(35, 35, 35, .85)), url(/resources/images/hero-right-bg.png);    background-position: 50%;
+    background-size: cover;
+    color: #fcfcfd;
+}
+.cover{
+    height: inherit;
+    opacity: 0.93;
+    width: inherit;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    position: static;
+}
+.hero-section-child{
+    width: 100%;
+    height: 40vh;
+    max-height: 100vh;
+    max-width: 670px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.hero-title-1 {
+    text-align: right;
+    text-transform: uppercase;
+    flex: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Noto Sans Mono, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1;
+}
+.sub-h1-bg {
+    color: #fcfcfd;
+    background-color: #363738;
+    justify-content: flex-end;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    line-height: 2.5;
+    display: inline;
+}
+.hero-description-1 {
+    min-height: 10ch;
+    text-align: right;
+    flex: 1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.translucent-button-1.solid-black {
+    background-color: rgba(35, 35, 35, .9);
+}
+.translucent-button-1 {
+    color: #fcfcfd;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: rgba(54, 55, 56, .75);
+    padding: 15px 20px;
+    font-weight: 800;
+}
+.w-button {
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: #fcfcfd;
+    border: 0;
+    border-radius: 0;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.hero-section-child.right {
+    color: #fcfcfd;
+    align-items: flex-start;
+    padding-left: 50px !important;
+    padding-right: 70px !important;
+}
+.hero-title-2 {
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Noto Sans Mono, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1;
+}
+.sub-h2-bg {
+    color: #363738;
+    background-color: #fcfcfd;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    line-height: 2.5;
+    display: inline;
+}
+.hero-description-2 {
+    min-height: 10ch;
+    text-align: left;
+    flex: 1;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+    text-decoration: none;
+}
 
+.translucent-button-2 {
+    color: #363738 !important;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #fcfcfd;
+    padding: 15px 20px;
+    font-weight: 800;
 }
