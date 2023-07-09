@@ -21,7 +21,7 @@ a {
     background-color: #363738 !important;
 }
 .sef-green{
-    background-color: #28eea7;
+    background-color: #28eea7 !important;
 }
 .green{
     color: #28eea7;
@@ -47,6 +47,9 @@ a {
 .medium-grey{
     background-color: #a5a6a9;
 }
+.md-grey{
+    color: #a5a6a9;
+}
 .absolute{
     position: absolute;
 }
@@ -57,7 +60,7 @@ a {
     display: flex;
 }
 .row{
-    flex-direction: row;
+    flex-direction: row !important;
 }
 .column{
     flex-direction: column;
@@ -82,6 +85,9 @@ a {
 }
 .a-i-s{
     align-items: start !important;
+}
+.a-i-stretch{
+    align-items: stretch !important;
 }
 .f-grow-1{
     flex-grow: 1;
@@ -468,4 +474,96 @@ a {
 .faq-quest-title:hover ~ .faq-answer{
     display: block;
     transition: 0.5s ease-in-out;
+}
+.location{
+    border-radius: 20px;
+    padding: 30px 40px 40px;
+    width: 320px;
+}
+#gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:240px;width:240px;
+    border-radius: 10px;
+}
+p.md-grey{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.location-text{
+    margin-top: 150px;
+}
+.form-email-link{
+    font-size: 22px;
+    line-height: 1.4;
+}
+.full-input-div {
+    flex: 1;
+    align-self: stretch;
+}
+.input-title{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 12px
+}
+.text-field {
+    height: 45px !important;
+    margin-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.w-input{
+    width: 100%;
+    height: 38px;
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    display: block;
+    font-family: Noto Sans Mono, sans-serif;
+}
+.form-radio{
+    font-size: 16px;
+    font-weight: 300;
+}
+.w-radio {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    display: block;
+}
+.w-form-formradioinput--inputType-custom {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.w-radio-input {
+    float: left;
+    margin: 3px 0 0 -20px;
+    line-height: normal;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.w-form-label {
+    cursor: pointer;
+    margin-bottom: 0;
+    font-weight: normal;
+    display: inline-block;
+}
+span.radio-button-label{
+    font-size: 14px;
+}
+.inquiry-input{
+    min-height: 120px !important;
+    vertical-align: top;
+    text-align: start;
+}
+.translucent-button-1.sef-green{
+    align-self: flex-end;
 }
