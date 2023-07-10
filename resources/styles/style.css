@@ -708,15 +708,25 @@ span.radio-button-label{
     .right-hero-section > div{
         padding-top: 160px;
     }
+    .cover{
+        padding-bottom: 120px;
+    }
     .hello-world{
-        margin-top: 200px;
+        margin-top: 350px;
     }
     .milestones-sections{
         flex-direction: column;
         width: 100%;
     }
     .success-rate{
-        flex-grow: 1;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .big-font-1{
+        font-size: 64px;
+    }
+    .big-font-3{
+        font-size: 18px;
     }
     .milestones-divs{
         flex-grow: 1;
@@ -726,5 +736,75 @@ span.radio-button-label{
     }
     .bootcamp-img{
         width: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+        
+    }
+    .selected-bootcamp-info{
+        align-items: center;
+    }
+    .hiring-cta{
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    .contact-us{
+        flex-direction: column-reverse !important;
+
+    }
+    .location{
+        width: 100%;
+    }
+    .news-letter-wrapper{
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin: 70px 0;
+    }
+    .subscribe-title{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .news-letter-wrapper-cta{
+        justify-content: center;
+    }
+    .text-field{
+        width: auto;
+        height: 55px !important;
+        margin: 0;
+    }
+}
+@media (max-width:767px){
+    .selected-bootcamp-info{
+        flex-direction: column !important;
+    }
+    .bootcamp-img{
+        width: 100%;
+        height: 100%;
+    }
+    .testemonials-wrapper{
+        flex-direction: column !important;
+        padding: 64px;
+    }
+    .student-img{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .w-footer{
+        flex-direction: column !important;
+        justify-items: center !important;
+    }
+    
+    .w-footer-1{
+        align-items: center;
+        gap: 50%;
+    }
+    .w-footer-2{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .footer-bottom{
+        flex-direction: column-reverse !important;
+        justify-content: center !important;
+        align-items: center !important;
     }
 }
