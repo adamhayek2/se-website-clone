@@ -177,7 +177,7 @@ a {
 .right-hero-section{
     width: 100%;
     height: 100%;
-    background-image: url("../images/hero-left-bg.png");
+    background-image: url("../images/hero-right-bg.png");
     background-position: 50%;
     background-size: cover;
 }
