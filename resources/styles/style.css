@@ -807,4 +807,58 @@ span.radio-button-label{
         justify-content: center !important;
         align-items: center !important;
     }
+    .forum-w-2{
+        flex-direction: column !important;
+    }
+    .text-field {
+        width: 100%;
+    }
+}
+@media (max-width: 450px){
+    body{
+        font-size: 14px;
+    }
+    .container{
+        height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sef-logo{
+        height: 40px;
+        width: auto;
+    }
+    .b-m-btn{
+        height: 40px;
+        width: 40px; 
+    }
+    .hero-section-child{
+        padding: 0 20px !important;
+    }
+    .hero-section-child.right{
+        padding: 0 20px !important;
+    }
+    .sub-h1-bg{
+        font-size: 18px;
+    }
+    .hero-title-1{
+        font-size: 24px;
+    }
+    .sub-h2-bg{
+        font-size: 18px;
+    }
+    .hero-title-2{
+        font-size: 24px;
+    }
+    .big-font-1{
+        font-size: 42px;
+        font-weight: 800;
+    }
+    .big-font-2{
+        font-size: 32px;
+        font-weight: 800;
+    }
+    .big-font-3{
+        font-size: 24px;
+        font-weight: 800;
+    }
 }
