@@ -26,6 +26,9 @@ a {
 .green{
     color: #28eea7;
 }
+.grey{
+    color: #282828 !important;
+}
 .white-grey{
     background-color: #dcdee1;
 }
@@ -89,6 +92,9 @@ a {
 .a-i-s{
     align-items: start !important;
 }
+.a-i-e{
+    align-items: end !important;
+}
 .a-i-stretch{
     align-items: stretch !important;
 }
@@ -101,6 +107,9 @@ a {
 .gap-10{
     gap: 10px
 }
+.gap-12{
+    gap: 12px
+}
 .gap-20{
     gap: 20px
 }
@@ -110,6 +119,9 @@ a {
 .gap-30{
     gap: 30px;
 }
+.gap-70{
+    gap: 70px;
+}
 .vh-100{
     height: 100vh;
 }
@@ -118,6 +130,18 @@ a {
 }
 .width-100{
     width: 100%;
+}
+.big-font-1{
+    font-size: 120px;
+    font-weight: 800;
+}
+.big-font-2{
+    font-size: 64px;
+    font-weight: 800;
+}
+.big-font-3{
+    font-size: 32px;
+    font-weight: 800;
 }
 .container{
     height: 50px;
@@ -345,6 +369,20 @@ a {
     padding-left: 0;
     padding-right: 0;
     position: relative;
+}
+.success-rate{
+    padding: 60px 70px;
+    gap: 20px;
+    border-radius: 20px;
+    width: 50%;
+}
+.more-details{
+    font-size: 14px;
+    line-height: 1.4;
+}
+.milestones-divs{
+    padding: 40px;
+    border-radius: 20px;
 }
 .bootcamp-title{
     color: #363738;
@@ -642,4 +680,51 @@ span.radio-button-label{
     width: 10px;
     height: 10px;
 }
-
+.footer-title{
+    color: #f1f2f3;
+    margin-bottom: 12px;
+}
+.footer-nav{
+    color: #a5a6a9;
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer-social-link{
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: #a5a6a9;
+    margin-top: 64px;
+}
+.copy-rights{
+    font-size: 12px;
+    font-weight: 200;
+    color: #a5a6a9;
+}
+@media (max-width:991px){
+    .hero-section{
+        flex-direction: column !important;
+    }
+    .right-hero-section > div{
+        padding-top: 160px;
+    }
+    .hello-world{
+        margin-top: 200px;
+    }
+    .milestones-sections{
+        flex-direction: column;
+        width: 100%;
+    }
+    .success-rate{
+        flex-grow: 1;
+    }
+    .milestones-divs{
+        flex-grow: 1;
+    }
+    .bootcamp-info-btns{
+        flex-direction: column !important;
+    }
+    .bootcamp-img{
+        width: 200px;
+    }
+}
