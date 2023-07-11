@@ -7,16 +7,11 @@
 </p>
 
 <p align="center">
-  🔗 <a href="https://adamhayek2002.github.io/se-factory-clone/home.html">Project Deployment</a> | 
+  🔗 <a href="https://adamhayek2002.github.io/se-website-clone/home.html">Project Deployment</a> | 
   📄 <a href="https://www.sefactory.io/">Original Website</a>
 </p>
 
-<p align="center">
-  <img src="" alt="Full Screen 1" width="100%">
-  <img src="" alt="Full Screen 1" width="100%">
-  <img src="" alt="Mobile Screen 1" width="300">
-  <img src="" alt="Mobile Screen 1" width="300">
-</p>
+
 
 ## Contact Information
 
